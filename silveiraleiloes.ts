@@ -28,6 +28,7 @@ const scrape = async () => {
       prices.forEach((price) => {
         pricesArray.push(price.textContent);
       });
+      data["prices"] = pricesArray;
 
       let link = element.querySelectorAll(".home-button > a");
       data["link"] = link[0].href;
