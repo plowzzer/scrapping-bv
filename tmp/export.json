@@ -44,6 +44,17 @@
     "link": "https://www.silveiraleiloes.com.br/leiloes/0251-leilao-extrajudicial-de-imovel"
   },
   {
+    "status": "Aberto",
+    "name": "LEILÃO EXTRAJUDICIAL DE IMÓVEL",
+    "type": "Presencial / Online",
+    "description": "IMÓVEL: LOTE 03, DA QUADRA U, DO LOTEAMENTO FAZENDA DONA CAROLINA",
+    "prices": [
+      "Praça Única: 24/09/2020 15:00 - R$ 500.000,00",
+      " "
+    ],
+    "link": "https://www.silveiraleiloes.com.br/leiloes/0252-leilao-extrajudicial-de-imovel"
+  },
+  {
     "status": "Futuro",
     "name": "LEILÃO JUDICIAL DE IMÓVEL",
     "type": "Online",
