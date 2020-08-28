@@ -19,13 +19,11 @@ class Mail {
     };
 
     const transporter = nodemailer.createTransport({
-      host: mailConfig.host,
-      port: mailConfig.port,
-      secure: false,
+      host,
+      port,
+      secure: secure ? secure : null,
       auth: auth.user ? auth : null,
     });
-
-    // transporter.use('compile')
 
     transporter.sendMail(mailOptions, function (error, info) {
       if (error) {

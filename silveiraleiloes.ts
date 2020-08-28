@@ -64,8 +64,8 @@ const scrape = async () => {
 
 async function main() {
   const oldData = readFile("data/silveiraLeiloes.json");
+  const newData: any = [];
   try {
-    const newData = [];
     const result = await scrape();
     result.forEach((element) => {
       let elementChecker = oldData.find(
@@ -77,8 +77,26 @@ async function main() {
     });
 
     Mail.to = "pedro.pizzo@bild.com.br";
-    Mail.subject = "NAVE PROBE Leiloes";
-    Mail.message = "test message";
+    Mail.subject = "NAVE PROBE - Encontramos novos Leilões";
+    var message = "";
+    newData.forEach((data) => {
+      message =
+        message +
+        `
+      \n
+        <h3>${data.name}</h3>
+        <ul>
+          <li>Tipo: ${data.type}</li>
+          <li>Link: ${data.link}</li>
+          <li>Status: ${data.status}</li>
+          <li>Descrição: ${data.description}</li>
+          <li>Preços: ${data.prices}</li>
+        </ul>
+      \n
+      `;
+    });
+
+    Mail.message = message;
     const mailResult = Mail.sendMail();
 
     console.log(`----------RESULTS----------\n`);
@@ -95,18 +113,4 @@ async function main() {
   }
 }
 
-// main();
-
-function mailerTest() {
-  Mail.to = "pedro.pizzo@bild.com.br";
-  Mail.subject = "NAVE PROBE - Encontramos novos Leilões";
-  Mail.message = `
-    
-  `;
-  const mailResult = Mail.sendMail();
-
-  console.log(`-----------MAIL-----------`);
-  console.log(mailResult);
-}
-
-mailerTest();
+main();
