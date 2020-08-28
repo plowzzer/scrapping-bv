@@ -1,10 +1,9 @@
 import * as puppeteer from "puppeteer";
-import { readFile, whiteFile } from "./utils/utils";
+import { readFile, updateFile } from "./utils/utils";
 import Mail from "./services/Mail";
-import mailer from "./config/mailer";
+import silveiraMailTemplate from "./views/silveiraMailer";
 
-//{ headless: false }
-interface Bid {
+export interface Bid {
   status: string;
   name: string;
   type: string;
@@ -76,28 +75,14 @@ async function main() {
       }
     });
 
-    Mail.to = "pedro.pizzo@bild.com.br";
-    Mail.subject = "NAVE PROBE - Encontramos novos Leilões";
-    var message = "";
-    newData.forEach((data) => {
-      message =
-        message +
-        `
-      \n
-        <h3>${data.name}</h3>
-        <ul>
-          <li>Tipo: ${data.type}</li>
-          <li>Link: ${data.link}</li>
-          <li>Status: ${data.status}</li>
-          <li>Descrição: ${data.description}</li>
-          <li>Preços: ${data.prices}</li>
-        </ul>
-      \n
-      `;
-    });
+    if (newData.length > 0) {
+      updateFile("data/silveiraLeiloes.json", newData);
 
-    Mail.message = message;
-    const mailResult = Mail.sendMail();
+      Mail.to = "pedro.pizzo@bild.com.br";
+      Mail.subject = "NAVE PROBE - Encontramos novos Leilões";
+      Mail.message = silveiraMailTemplate(newData);
+      Mail.sendMail();
+    }
 
     console.log(`----------RESULTS----------\n`);
     console.log(`Total New: ${newData.length}`);
@@ -105,9 +90,7 @@ async function main() {
     console.log(`Total Saved: ${oldData.length + newData.length}`);
     console.log(`---------------------------\n\n`);
 
-    console.log(`-----------MAIL-----------`);
-
-    console.log(mailResult);
+    // console.log(mailResult);
   } catch (error) {
     console.error("something went wrong:", error);
   }

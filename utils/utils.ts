@@ -10,11 +10,21 @@ export function readFile(file: string) {
   }
 }
 
-export function writeFile(result: JSON, file: string) {
+export function updateFile(file: string, newData: Array<Object>) {
+  try {
+    const totalData = readFile(file);
+    newData.forEach((data) => {
+      totalData.push(data);
+    });
+    writeFile(file, totalData);
+  } catch (err) {
+    console.error(err);
+  }
+}
+
+export function writeFile(file: string, result: JSON) {
   fs.writeFile(file, JSON.stringify(result, null, 2), (err) => {
-    if (err) {
-      throw err;
-    }
+    if (err) throw err;
     console.log("JSON file is saved.");
   });
 }

@@ -1,5 +1,6 @@
 import * as nodemailer from "nodemailer";
 import mailConfig from "../config/mailer";
+import template from "../views/template";
 
 class Mail {
   constructor(
@@ -15,7 +16,7 @@ class Mail {
       from: "probe@nave.com.br",
       to: this.to,
       subject: this.subject,
-      html: this.message,
+      html: template(this.message),
     };
 
     const transporter = nodemailer.createTransport({
