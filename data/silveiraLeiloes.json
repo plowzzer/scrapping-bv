@@ -1,0 +1,150 @@
+[
+  {
+    "name": "LEILÃO EXTRAJUDICIAL DE LOTES DE TERRENO",
+    "status": "Encerrado",
+    "type": "Presencial / Online",
+    "description": "4 LOTES DE TERRENO NO LOTEAMENTO TERRA CAXAMBU - JUNDIAÍ / SP",
+    "prices": ["Praça Única: 20/10/2016 15:00 - Vide rel. de lotes", " "],
+    "link": "https://www.silveiraleiloes.com.br/leiloes/0034-leilao-extrajudicial-de-lotes-de-terreno"
+  },
+  {
+    "name": "LEILÃO EXTRAJUDICIAL DE LOTE DE TERRENO",
+    "status": "Encerrado",
+    "type": "Presencial / Online",
+    "description": "Lote de terreno nº 05, Quadra L - Loteamento Pedra Alta – Campinas/SP",
+    "prices": [
+      "1º Leilão: 25/05/2017 10:00 - R$ 1.442.141,07",
+      "2º Leilão: 26/05/2017 10:00 - R$ 871.683,22"
+    ],
+    "link": "https://www.silveiraleiloes.com.br/leiloes/0048-leilao-extrajudicial-de-lote-de-terreno"
+  },
+  {
+    "name": "LEILÃO EXTRAJUDICIAL DE IMÓVEL",
+    "status": "Encerrado",
+    "type": "Presencial / Online",
+    "description": "Lote de terreno nº 05 - Quadra G, FAZENDA SANTA ISABEL - LOTEAMENTO TERRA CAXAMBU",
+    "prices": [
+      "1º Leilão: 29/05/2017 10:00 - R$ 532.507,77",
+      "2º Leilão: 30/05/2017 10:00 - R$ 287.055,06"
+    ],
+    "link": "https://www.silveiraleiloes.com.br/leiloes/0049-leilao-extrajudicial-de-imovel"
+  },
+  {
+    "name": "LEILÃO JUDICIAL DE IMÓVEL",
+    "status": "Encerrado",
+    "type": "Online",
+    "description": "Lote de terreno 09, da Quadra G rua Armantino Viera dos Santos, nº 91, Distrito de Sousas em Campinas/SP",
+    "prices": [
+      "1º Leilão: 08/09/2017 11:00 - Sem licitante",
+      "2º Leilão: 28/09/2017 11:00 - Sem licitante"
+    ],
+    "link": "https://www.silveiraleiloes.com.br/leiloes/0056-leilao-judicial-de-imovel"
+  },
+  {
+    "name": "LEILÃO JUDICIAL DE IMÓVEL",
+    "status": "Encerrado",
+    "type": "Online",
+    "description": "LOTE DE TERRENO EM MOGI MIRIM/SP - JARDIM PARQUE REAL II",
+    "prices": [
+      "1º Leilão: 06/09/2017 11:00 - Sem licitante",
+      "2º Leilão: 28/09/2017 15:00 - Sem licitante"
+    ],
+    "link": "https://www.silveiraleiloes.com.br/leiloes/0063-leilao-judicial-de-imovel"
+  },
+  {
+    "name": "LEILÃO JUDICIAL DE GLEBA DE TERRA",
+    "status": "Encerrado",
+    "type": "Online",
+    "description": "Gleba de terra nº 16, do Loteamento Núcleo Santa Izabel, com area de 41.349,70m2, situada no município de Campinas/SP",
+    "prices": [
+      "1º Leilão: 10/02/2018 15:00 - Sem licitante",
+      "2º Leilão: 16/03/2018 15:00 - Sem licitante"
+    ],
+    "link": "https://www.silveiraleiloes.com.br/leiloes/0082-leilao-judicial-de-gleba-de-terra"
+  },
+  {
+    "name": "LEILÃO JUDICIAL DE IMÓVEL",
+    "status": "Encerrado",
+    "type": "Online",
+    "description": "Lote de terreno 09, da Quadra G rua Armantino Viera dos Santos, nº 91, Distrito de Sousas em Campinas/SP",
+    "prices": [
+      "1ª Praça: 25/06/2018 11:00 - Sem licitante",
+      "2ª Praça: 19/07/2018 15:00 - Sem licitante"
+    ],
+    "link": "https://www.silveiraleiloes.com.br/leiloes/0096-leilao-judicial-de-imovel"
+  },
+  {
+    "name": "LEILÃO JUDICIAL DE IMÓVEL",
+    "status": "Encerrado",
+    "type": "Online",
+    "description": "Um prédio e respectivo terreno, á Av. República do Líbano, nº 1.955, São Paulo/SP",
+    "prices": [
+      "1º Leilão: 17/04/2019 15:00 - Sem licitante",
+      "2º Leilão: 15/05/2019 15:00 - Sem licitante"
+    ],
+    "link": "https://www.silveiraleiloes.com.br/leiloes/0174-leilao-judicial-de-imovel"
+  },
+  {
+    "name": "LEILÃO JUDICIAL DE IMÓVEL",
+    "status": "Encerrado",
+    "type": "Online",
+    "description": "Prédio e seu respectivo terreno, Rua Santo Adriano, nº 222, Jardim Pery, São Paulo/SP",
+    "prices": [
+      "1º Leilão: 29/03/2019 15:00 - Sem licitante",
+      "2º Leilão: 24/04/2019 15:00 - Sem licitante"
+    ],
+    "link": "https://www.silveiraleiloes.com.br/leiloes/0171-leilao-judicial-de-imovel"
+  },
+  {
+    "name": "LEILÃO EXTRAJUDICIAL DE IMÓVEL",
+    "status": "Encerrado",
+    "type": "Presencial / Online",
+    "description": "Terreno, situado na Rua Jorge Feres, nºs 178/179 e 314, Jardim São Luiz, Santo Amaro, São Paulo/SP",
+    "prices": ["Leilão: 31/05/2019 15:00 - R$ 7.500.000,00", " "],
+    "link": "https://www.silveiraleiloes.com.br/leiloes/0153-leilao-extrajudicial-de-imovel"
+  },
+  {
+    "name": "LEILÃO JUDICIAL DE IMÓVEL",
+    "status": "Encerrado",
+    "type": "Presencial / Online",
+    "description": "Prédio e seu respectivo terreno, Rua Santo Adriano, nº 222, Jardim Peri, Santana, São Paulo/Capital",
+    "prices": [
+      "1ª Praça: 07/10/2019 15:00 - R$ 376.979,83",
+      "2ª Praça: 04/11/2019 15:00 - R$ 226.187,89"
+    ],
+    "link": "https://www.silveiraleiloes.com.br/leiloes/0195-leilao-judicial-de-imovel"
+  },
+  {
+    "name": "LEILÃO EXTRAJUDICIAL DE IMÓVEL",
+    "status": "Encerrado",
+    "type": "Presencial / Online",
+    "description": "LOTE DE TERRENO Nº 02 DA QUADRA E, FAZENDA SANTA ISABEL, Jundiaí/SP",
+    "prices": [
+      "1º Leilão: 09/12/2019 11:00 - R$ 515.060,09",
+      "2º Leilão: 10/12/2019 11:00 - R$ 231.251,26"
+    ],
+    "link": "https://www.silveiraleiloes.com.br/leiloes/0215-leilao-extrajudicial-de-imovel"
+  },
+  {
+    "name": "LEILÃO EXTRAJUDICIAL DE IMÓVEL",
+    "status": "Encerrado",
+    "type": "Presencial / Online",
+    "description": "LOTE DE TERRENO Nº 23 DA QUADRA G, FAZENDA SANTA ISABEL, Jundiaí/SP",
+    "prices": [
+      "1º Leilão: 06/02/2020 11:00 - R$ 514.222,39",
+      "2º Leilão: 07/02/2020 11:00 - R$ 225.329,04"
+    ],
+    "link": "https://www.silveiraleiloes.com.br/leiloes/0226-leilao-extrajudicial-de-imovel"
+  },
+  {
+    "name": "LEILÃO EXTRAJUDICIAL DE IMÓVEL",
+    "status": "Encerrado",
+    "type": "Presencial / Online",
+    "description": "LOTE DE TERRENO Nº 06 DA QUADRA H, FAZENDA SANTA ISABEL, Jundiaí/SP",
+    "prices": [
+      "1º Leilão: 30/03/2020 11:00 - R$ 526.692,89",
+      "2º Leilão: 31/03/2020 11:00 - R$ 306.720,75"
+    ],
+    "link": "https://www.silveiraleiloes.com.br/leiloes/0234-leilao-extrajudicial-de-imovel"
+  }
+]
