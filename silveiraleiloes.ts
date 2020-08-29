@@ -1,4 +1,5 @@
 import * as puppeteer from "puppeteer";
+import "./config/env";
 import { readFile, updateFile } from "./utils/utils";
 import Mail from "./services/Mail";
 import silveiraMailTemplate from "./views/silveiraMailer";
@@ -74,7 +75,7 @@ async function main() {
         newData.push(element);
       }
     });
-
+    console.log(newData);
     if (newData.length > 0) {
       updateFile("data/silveiraLeiloes.json", newData);
 
@@ -89,8 +90,6 @@ async function main() {
     console.log(`Total Scraped: ${result.length}`);
     console.log(`Total Saved: ${oldData.length + newData.length}`);
     console.log(`---------------------------\n\n`);
-
-    // console.log(mailResult);
   } catch (error) {
     console.error("something went wrong:", error);
   }

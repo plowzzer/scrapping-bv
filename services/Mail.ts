@@ -9,9 +9,8 @@ class Mail {
     public message?: string
   ) {}
 
-  sendMail() {
+  async sendMail() {
     const { host, port, secure, auth } = mailConfig;
-
     let mailOptions = {
       from: "probe@nave.com.br",
       to: this.to,
@@ -26,10 +25,11 @@ class Mail {
       auth: auth.user ? auth : null,
     });
 
-    transporter.sendMail(mailOptions, function (error, info) {
+    await transporter.sendMail(mailOptions, function (error, info) {
       if (error) {
         return error;
       } else {
+        console.log("E-mail enviado com sucesso!");
         return "E-mail enviado com sucesso!";
       }
     });

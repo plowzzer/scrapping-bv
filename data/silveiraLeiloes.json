@@ -1,5 +1,16 @@
 [
   {
+    "name": "LEILÃO JUDICIAL DE IMÓVEL",
+    "status": "Encerrado",
+    "type": "Presencial / Online",
+    "description": "Prédio e seu respectivo terreno, sito à Rua Ribeyrolles, nº 154, Parque Jabaquara, São Paulo/SP",
+    "prices": [
+      "1º Leilão: 13/07/2016 15:00 - R$ 239.648,82",
+      "2º Leilão: 11/08/2016 15:00 - R$ 143.789,29"
+    ],
+    "link": "https://www.silveiraleiloes.com.br/leiloes/0022-leilao-judicial-de-imovel"
+  },
+  {
     "name": "LEILÃO EXTRAJUDICIAL DE LOTES DE TERRENO",
     "status": "Encerrado",
     "type": "Presencial / Online",
@@ -163,16 +174,5 @@
       "2º Leilão: 29/09/2020 15:00 - R$ 325.000,00"
     ],
     "link": "https://www.silveiraleiloes.com.br/leiloes/0204-leilao-judicial-de-imovel"
-  },
-  {
-    "name": "LEILÃO JUDICIAL DE IMÓVEL",
-    "status": "Encerrado",
-    "type": "Presencial / Online",
-    "description": "Prédio e seu respectivo terreno, sito à Rua Ribeyrolles, nº 154, Parque Jabaquara, São Paulo/SP",
-    "prices": [
-      "1º Leilão: 13/07/2016 15:00 - R$ 239.648,82",
-      "2º Leilão: 11/08/2016 15:00 - R$ 143.789,29"
-    ],
-    "link": "https://www.silveiraleiloes.com.br/leiloes/0022-leilao-judicial-de-imovel"
   }
 ]

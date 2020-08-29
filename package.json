@@ -8,11 +8,13 @@
     "vivaReal": "ts-node-dev --transpile-only vivaReal.ts"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "nodemailer": "^6.4.11",
     "puppeteer": "^5.2.1",
     "typescript": "^3.9.7"
   },
   "devDependencies": {
+    "@types/dotenv": "^8.2.0",
     "@types/nodemailer": "^6.4.0",
     "@types/puppeteer": "^3.0.1",
     "ts-node-dev": "^1.0.0-pre.58"
