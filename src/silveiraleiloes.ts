@@ -2,7 +2,7 @@ import * as puppeteer from "puppeteer";
 import "./config/env";
 import { readFile, updateFile } from "./utils/utils";
 import Mail from "./services/Mail";
-import silveiraMailTemplate from "./views/silveiraMailer";
+import silveiraMailTemplate from "./views/silveira";
 
 export interface Bid {
   status: string;
@@ -19,10 +19,10 @@ const scrape = async () => {
   await page.goto("https://silveiraleiloes.com.br/");
 
   const result = await page.evaluate(() => {
-    const home = [];
+    const home: Array<Object> = [];
 
     document.querySelectorAll(".leilao").forEach((element) => {
-      let data: Bid = {};
+      let data: Bid = {} as Bid;
 
       let type = element.querySelectorAll("article > .home-titulo > p");
 
@@ -34,20 +34,23 @@ const scrape = async () => {
         data["name"] = name[0].innerHTML;
 
         let status = element.querySelectorAll(".home-button > a .text-left");
-        data["status"] = status[0]?.textContent;
+        data["status"] = status[0].textContent!;
 
         let type = element.querySelectorAll("article > .home-titulo > p");
         data["type"] = type[0].innerHTML;
         data["description"] = type[1].innerHTML;
 
         let prices = element.querySelectorAll(".home-pracas > p");
-        let pricesArray = [];
+        let pricesArray: Array<string> = [];
         prices.forEach((price) => {
-          pricesArray.push(price.textContent);
+          pricesArray.push(price.textContent!);
         });
+
         data["prices"] = pricesArray;
 
-        let link = element.querySelectorAll(".home-button > a");
+        let link: NodeListOf<HTMLLinkElement> = element.querySelectorAll(
+          ".home-button > a"
+        );
         data["link"] = link[0].href;
 
         home.push(data);
