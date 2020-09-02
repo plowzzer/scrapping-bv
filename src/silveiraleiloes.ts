@@ -1,5 +1,5 @@
-import * as puppeteer from "puppeteer";
 import "./config/env";
+import * as puppeteer from "puppeteer";
 import { readFile, updateFile } from "./utils/utils";
 import Mail from "./services/Mail";
 import silveiraMailTemplate from "./views/silveira";
@@ -65,8 +65,9 @@ const scrape = async () => {
   return result;
 };
 
-async function main() {
-  const oldData = readFile("data/silveiraLeiloes.json");
+(async () => {
+  const dataFile = "./src/data/silveiraLeiloes.json";
+  const oldData = readFile(dataFile);
   const newData: any = [];
   try {
     const result = await scrape();
@@ -78,14 +79,15 @@ async function main() {
         newData.push(element);
       }
     });
-    console.log(newData);
-    if (newData.length > 0) {
-      updateFile("data/silveiraLeiloes.json", newData);
 
-      Mail.to = "pedro.pizzo@bild.com.br";
-      Mail.subject = "NAVE PROBE - Encontramos novos Leilões";
+    if (newData.length > 0) {
+      Mail.from = "rpa.csc@bild.com.br";
+      Mail.to = "pedro.pizzo@bild.com.br, diogenes.oliveira@bild.com.br";
+      Mail.subject = "NAVE SENTINELA - Encontramos novos Leilões";
       Mail.message = silveiraMailTemplate(newData);
-      Mail.sendMail();
+      const sender = Mail.sendMail();
+
+      sender && updateFile(dataFile, newData);
     }
 
     console.log(`----------RESULTS----------\n`);
@@ -96,6 +98,4 @@ async function main() {
   } catch (error) {
     console.error("something went wrong:", error);
   }
-}
-
-main();
+})();

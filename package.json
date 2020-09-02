@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "silveiraLeiloes": "ts-node-dev --transpile-only silveiraleiloes.ts",
-    "vivaReal": "ts-node-dev --transpile-only vivaReal.ts"
+    "silveiraLeiloes": "ts-node-dev --transpile-only ./src/silveiraleiloes.ts",
+    "vivaReal": "ts-node-dev --transpile-only ./src/vivaReal.ts"
   },
   "dependencies": {
     "dotenv": "^8.2.0",

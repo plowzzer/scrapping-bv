@@ -5,6 +5,7 @@ import template from "../views/template";
 class Mail {
   constructor(
     public to?: string,
+    public from?: string,
     public subject?: string,
     public message?: string
   ) {}
@@ -12,7 +13,7 @@ class Mail {
   async sendMail() {
     const { host, port, secure, auth } = mailConfig;
     let mailOptions = {
-      from: "probe@nave.com.br",
+      from: this.from,
       to: this.to,
       subject: this.subject,
       html: template(this.message),
@@ -21,16 +22,18 @@ class Mail {
     const transporter = nodemailer.createTransport({
       host,
       port,
-      secure: secure ? secure : null,
+      secureConnection: secure,
+      tls: { ciphers: "SSLv3" },
       auth: auth.user ? auth : null,
     });
 
     await transporter.sendMail(mailOptions, function (error, info) {
       if (error) {
-        return error;
+        console.log("Erro no envio de email:\n", error);
+        return false;
       } else {
         console.log("E-mail enviado com sucesso!");
-        return "E-mail enviado com sucesso!";
+        return true;
       }
     });
   }
