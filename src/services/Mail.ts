@@ -23,7 +23,7 @@ class Mail {
       host,
       port,
       secureConnection: secure,
-      tls: { ciphers: "SSLv3" },
+      tls: host === "smtp.office365.com" ? { ciphers: "SSLv3" } : null,
       auth: auth.user ? auth : null,
     });
 

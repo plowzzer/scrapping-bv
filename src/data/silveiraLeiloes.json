@@ -15,10 +15,7 @@
     "status": "Encerrado",
     "type": "Presencial / Online",
     "description": "4 LOTES DE TERRENO NO LOTEAMENTO TERRA CAXAMBU - JUNDIAÍ / SP",
-    "prices": [
-      "Praça Única: 20/10/2016 15:00 - Vide rel. de lotes",
-      " "
-    ],
+    "prices": ["Praça Única: 20/10/2016 15:00 - Vide rel. de lotes", " "],
     "link": "https://www.silveiraleiloes.com.br/leiloes/0034-leilao-extrajudicial-de-lotes-de-terreno"
   },
   {
@@ -114,10 +111,7 @@
     "status": "Encerrado",
     "type": "Presencial / Online",
     "description": "Terreno, situado na Rua Jorge Feres, nºs 178/179 e 314, Jardim São Luiz, Santo Amaro, São Paulo/SP",
-    "prices": [
-      "Leilão: 31/05/2019 15:00 - R$ 7.500.000,00",
-      " "
-    ],
+    "prices": ["Leilão: 31/05/2019 15:00 - R$ 7.500.000,00", " "],
     "link": "https://www.silveiraleiloes.com.br/leiloes/0153-leilao-extrajudicial-de-imovel"
   },
   {
@@ -166,7 +160,7 @@
   },
   {
     "name": "LEILÃO JUDICIAL DE IMÓVEL",
-    "status": "Futuro",
+    "status": "Aberto",
     "type": "Online",
     "description": "UMA GLEBA DE TERRAS, DESIGNADA LOTE 3, QUADRA A, DISTRITO INDUSTRIAL DE CAPIVARI/SP, ÁREA 12.465,15m2",
     "prices": [
