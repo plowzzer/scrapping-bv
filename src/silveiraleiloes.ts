@@ -14,7 +14,7 @@ export interface Bid {
 }
 
 const scrape = async () => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
   await page.goto("https://silveiraleiloes.com.br/");
 
@@ -43,7 +43,14 @@ const scrape = async () => {
         let prices = element.querySelectorAll(".home-pracas > p");
         let pricesArray: Array<string> = [];
         prices.forEach((price) => {
-          pricesArray.push(price.textContent!);
+          console.log(price.innerHTML);
+          if (price.innerHTML !== "&nbsp;") {
+            let info = price.innerText.replace("-", "").split("R$ ");
+            pricesArray.push({
+              date: info[0],
+              value: info[1],
+            });
+          }
         });
 
         data["prices"] = pricesArray;
