@@ -14,10 +14,11 @@ export default (body: string) => {
 
   body {
     background-color: #f6f6f6;
-    font-family: sans-serif;
+    font-family: 'Montserrat',sans-serif;
     -webkit-font-smoothing: antialiased;
     font-size: 14px;
     line-height: 1.4;
+    font-wight: 500;
     margin: 0;
     padding: 0;
     -ms-text-size-adjust: 100%;
@@ -31,7 +32,7 @@ export default (body: string) => {
     width: 100%;
   }
   table td {
-    font-family: sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-size: 14px;
     vertical-align: top;
   }
@@ -71,6 +72,7 @@ export default (body: string) => {
     background: #ffffff;
     border-radius: 3px;
     width: 100%;
+    margin-top: -8px;
   }
 
   .wrapper {
@@ -106,7 +108,7 @@ export default (body: string) => {
   h3,
   h4 {
     color: #000000;
-    font-family: sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 400;
     line-height: 1.4;
     margin: 0;
@@ -115,19 +117,20 @@ export default (body: string) => {
 
   h1 {
     font-size: 35px;
-    font-weight: 300;
-    text-align: center;
-    text-transform: capitalize;
+    color: #fb20e4;
+    font-weight: 700;
+    margin-bottom: 0;
   }
 
   p,
   ul,
   ol {
-    font-family: sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-size: 14px;
     font-weight: normal;
     margin: 0;
     margin-bottom: 15px;
+    color: #7c7c7c;
   }
   p li,
   ul li,
@@ -156,32 +159,31 @@ export default (body: string) => {
   }
   .btn table td {
     background-color: #ffffff;
-    border-radius: 5px;
+    border-radius: 12px;
     text-align: center;
   }
   .btn a {
     background-color: #ffffff;
-    border: solid 1px #3498db;
-    border-radius: 5px;
+    border: solid 1px #fb1be3;
+    border-radius: 12px;
     box-sizing: border-box;
-    color: #3498db;
+    color: #fb1be3;
     cursor: pointer;
     display: inline-block;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     margin: 0;
-    padding: 12px 25px;
+    padding: 10px 25px;
     text-decoration: none;
-    text-transform: capitalize;
   }
 
   .btn-primary table td {
-    background-color: #3498db;
+    background-color: #fb1be3;
   }
 
   .btn-primary a {
-    background-color: #3498db;
-    border-color: #3498db;
+    background-color: #fb1be3;
+    border-color: #fb1be3;
     color: #ffffff;
   }
 
@@ -320,36 +322,66 @@ export default (body: string) => {
       line-height: inherit;
     }
     .btn-primary table td:hover {
-      background-color: #34495e !important;
+      background-color: #fb1be3 !important;
     }
     .btn-primary a:hover {
-      background-color: #34495e !important;
-      border-color: #34495e !important;
+      background-color: #fb1be3 !important;
+      border-color: #fb1be3 !important;
     }
-  }</style>`;
+  }
+
+  /* -------------------------------------
+        MINE STYLES
+    ------------------------------------- */
+  .title {
+    color: #7820ec;
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 0 !important;
+  }
+  .details {
+    color: #858585;
+    font-weight: 700;
+  }
+  .price {
+    border: 2px solid #7b22ec;
+    border-radius: 15px;
+    line-height: 1.2;
+  }
+  .price .details {
+    color: #000;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .price .final {
+    color: #7b22ec;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+</style>`;
 
   const template = `
   <html>
     <head>
       <meta name="viewport" content="width=device-width" />
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-      <title>NAVE PROBE</title>
+      <title>NAVE SENTINELA</title>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
       ${styles}
     </head>
 
     <body class="">
-      <span class="preheader">
-        Pre header
-      </span>
+      <span class="preheader"></span>
       <table
         role="presentation"
         border="0"
         cellpadding="0"
         cellspacing="0"
         class="body"
+        style="font-family: 'Montserrat', Arial, sans-serif; font-weight: 400;"
       >
         <tr>
-          <td>&nbsp;</td>
           <td class="container">
             <div class="content">
               <!-- START CENTERED WHITE CONTAINER -->
@@ -361,36 +393,18 @@ export default (body: string) => {
                   </td>
                 </tr>
               </table>
-
-              <!-- START FOOTER -->
-              <!-- <div class="footer">
-                <table
-                  role="presentation"
-                  border="0"
-                  cellpadding="0"
-                  cellspacing="0"
-                >
-                  <tr>
-                    <td class="content-block">
-                      <span class="apple-link"
-                        >Company Inc, 3 Abbey Road, San Francisco CA 94102</span
-                      >
-                      <br />
-                      Don't like these emails?
-                      <a href="http://i.imgur.com/CScmqnj.gif">Unsubscribe</a>.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="content-block powered-by">
-                      Powered by <a href="http://htmlemail.io">HTMLemail</a>.
-                    </td>
-                  </tr>
-                </table>
-              </div> -->
-              <!-- END FOOTER -->
             </div>
           </td>
-          <td>&nbsp;</td>
+          <table
+            role="presentation"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+          >
+            <tr>
+              <img src="./src/views/images/footer.jpg" alt="" />
+            </tr>
+          </table>
         </tr>
       </table>
     </body>

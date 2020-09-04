@@ -76,6 +76,7 @@
         background: #ffffff;
         border-radius: 3px;
         width: 100%;
+        margin-top: -8px;
       }
 
       .wrapper {
@@ -120,9 +121,9 @@
 
       h1 {
         font-size: 35px;
-        font-weight: 300;
-        text-align: center;
-        text-transform: capitalize;
+        color: #fb20e4;
+        font-weight: 700;
+        margin-bottom: 0;
       }
 
       p,
@@ -133,6 +134,7 @@
         font-weight: normal;
         margin: 0;
         margin-bottom: 15px;
+        color: #7c7c7c;
       }
       p li,
       ul li,
@@ -161,32 +163,31 @@
       }
       .btn table td {
         background-color: #ffffff;
-        border-radius: 5px;
+        border-radius: 12px;
         text-align: center;
       }
       .btn a {
         background-color: #ffffff;
-        border: solid 1px #3498db;
-        border-radius: 5px;
+        border: solid 1px #fb1be3;
+        border-radius: 12px;
         box-sizing: border-box;
-        color: #3498db;
+        color: #fb1be3;
         cursor: pointer;
         display: inline-block;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: bold;
         margin: 0;
-        padding: 12px 25px;
+        padding: 10px 25px;
         text-decoration: none;
-        text-transform: capitalize;
       }
 
       .btn-primary table td {
-        background-color: #3498db;
+        background-color: #fb1be3;
       }
 
       .btn-primary a {
-        background-color: #3498db;
-        border-color: #3498db;
+        background-color: #fb1be3;
+        border-color: #fb1be3;
         color: #ffffff;
       }
 
@@ -325,31 +326,42 @@
           line-height: inherit;
         }
         .btn-primary table td:hover {
-          background-color: #34495e !important;
+          background-color: #fb1be3 !important;
         }
         .btn-primary a:hover {
-          background-color: #34495e !important;
-          border-color: #34495e !important;
+          background-color: #fb1be3 !important;
+          border-color: #fb1be3 !important;
         }
       }
 
       /* -------------------------------------
             MINE STYLES
         ------------------------------------- */
+      .title {
+        color: #7820ec;
+        font-weight: 700;
+        font-size: 16px;
+        padding-bottom: 0 !important;
+      }
+      .details {
+        color: #858585;
+        font-weight: 700;
+      }
       .price {
-        border: 2px solid purple;
+        border: 2px solid #7b22ec;
         border-radius: 15px;
+        line-height: 1.2;
       }
       .price .details {
-        color: black;
+        color: #000;
         font-weight: 700;
-        font-size: 22px;
+        font-size: 15px;
       }
       .price .final {
-        color: purple;
+        color: #7b22ec;
         font-weight: 700;
         margin-bottom: 0;
-        font-size: 26px;
+        font-size: 20px;
       }
     </style>
   </head>
@@ -370,7 +382,7 @@
             <table role="presentation" class="main">
               <!-- START MAIN CONTENT AREA -->
               <tr>
-                <img src="./src/views/images/header.png" alt="" />
+                <img src="./src/views/images/header.jpg" alt="" />
               </tr>
               <tr>
                 <td class="wrapper">
@@ -400,14 +412,18 @@
                   >
                     <tbody>
                       <tr>
-                        Leilão Judicial de Imóvel
+                        <td class="title" colspan="2">
+                          Leilão Judicial de Imóvel
+                        </td>
                       </tr>
                       <tr>
-                        <td align="left">Futuro Online</td>
+                        <td class="details" align="left">
+                          <span>Futuro</span> <span>Online</span>
+                        </td>
                       </tr>
                       <tr>
                         <td colspan="2">
-                          <p>
+                          <p style="margin-bottom: 0">
                             Uma gleba de terras, designada lote 3, quadra A,
                             Distrito Industrial de Capivari/SP, Área 12.465,12
                             m2.
@@ -418,7 +434,7 @@
                       <table
                         role="presentation"
                         border="0"
-                        cellpadding="15"
+                        cellpadding="10"
                         cellspacing="15"
                       >
                         <tr>
@@ -473,7 +489,7 @@
                     cellspacing="0"
                   >
                     <tr>
-                      <img src="./src/views/images/footer.png" alt="" />
+                      <img src="./src/views/images/footer.jpg" alt="" />
                     </tr>
                   </table>
                 </td>

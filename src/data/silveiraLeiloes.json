@@ -83,21 +83,6 @@
     "name": "LEILÃO JUDICIAL DE IMÓVEL",
     "status": "Encerrado",
     "type": "Online",
-    "description": "Lote de terreno 09, da Quadra G rua Armantino Viera dos Santos, nº 91, Distrito de Sousas em Campinas/SP",
-    "prices": [
-      {
-        "date": "1º Leilão: 08/09/2017 11:00  Sem licitante"
-      },
-      {
-        "date": "2º Leilão: 28/09/2017 11:00  Sem licitante"
-      }
-    ],
-    "link": "https://www.silveiraleiloes.com.br/leiloes/0056-leilao-judicial-de-imovel"
-  },
-  {
-    "name": "LEILÃO JUDICIAL DE IMÓVEL",
-    "status": "Encerrado",
-    "type": "Online",
     "description": "LOTE DE TERRENO EM MOGI MIRIM/SP - JARDIM PARQUE REAL II",
     "prices": [
       {
@@ -123,6 +108,21 @@
       }
     ],
     "link": "https://www.silveiraleiloes.com.br/leiloes/0082-leilao-judicial-de-gleba-de-terra"
+  },
+  {
+    "name": "LEILÃO JUDICIAL DE IMÓVEL",
+    "status": "Encerrado",
+    "type": "Online",
+    "description": "Lote de terreno 09, da Quadra G rua Armantino Viera dos Santos, nº 91, Distrito de Sousas em Campinas/SP",
+    "prices": [
+      {
+        "date": "1º Leilão: 08/09/2017 11:00  Sem licitante"
+      },
+      {
+        "date": "2º Leilão: 28/09/2017 11:00  Sem licitante"
+      }
+    ],
+    "link": "https://www.silveiraleiloes.com.br/leiloes/0056-leilao-judicial-de-imovel"
   },
   {
     "name": "LEILÃO JUDICIAL DE IMÓVEL",
@@ -170,19 +170,6 @@
     "link": "https://www.silveiraleiloes.com.br/leiloes/0171-leilao-judicial-de-imovel"
   },
   {
-    "name": "LEILÃO EXTRAJUDICIAL DE IMÓVEL",
-    "status": "Encerrado",
-    "type": "Presencial / Online",
-    "description": "Terreno, situado na Rua Jorge Feres, nºs 178/179 e 314, Jardim São Luiz, Santo Amaro, São Paulo/SP",
-    "prices": [
-      {
-        "date": "Leilão: 31/05/2019 15:00  ",
-        "value": "7.500.000,00"
-      }
-    ],
-    "link": "https://www.silveiraleiloes.com.br/leiloes/0153-leilao-extrajudicial-de-imovel"
-  },
-  {
     "name": "LEILÃO JUDICIAL DE IMÓVEL",
     "status": "Encerrado",
     "type": "Presencial / Online",
@@ -215,6 +202,19 @@
       }
     ],
     "link": "https://www.silveiraleiloes.com.br/leiloes/0215-leilao-extrajudicial-de-imovel"
+  },
+  {
+    "name": "LEILÃO EXTRAJUDICIAL DE IMÓVEL",
+    "status": "Encerrado",
+    "type": "Presencial / Online",
+    "description": "Terreno, situado na Rua Jorge Feres, nºs 178/179 e 314, Jardim São Luiz, Santo Amaro, São Paulo/SP",
+    "prices": [
+      {
+        "date": "Leilão: 31/05/2019 15:00  ",
+        "value": "7.500.000,00"
+      }
+    ],
+    "link": "https://www.silveiraleiloes.com.br/leiloes/0153-leilao-extrajudicial-de-imovel"
   },
   {
     "name": "LEILÃO EXTRAJUDICIAL DE IMÓVEL",

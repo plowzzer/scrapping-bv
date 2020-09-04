@@ -9,12 +9,12 @@ export interface Bid {
   name: string;
   type: string;
   description: string;
-  prices: string;
+  prices: object;
   link: string;
 }
 
 const scrape = async () => {
-  const browser = await puppeteer.launch({ headless: false });
+  const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto("https://silveiraleiloes.com.br/");
 
