@@ -1,0 +1,576 @@
+[
+  {
+    "status": "Apenas Online",
+    "type": "Ativo - 2ª Praça",
+    "name": "4ª Vara Federal, especializada em Execuções Fiscais, da Subseção Judiciária de Piracicaba",
+    "place": "Piracicaba/SP",
+    "description": "Lote Integral (2.01 e 2.02) Item A e B",
+    "prices": [
+      {
+        "date": "1ª Praça\n04/09/2020 13:01",
+        "value": "R$ 140.600,00"
+      },
+      {
+        "date": "2ª Praça\n15/09/2020 13:01",
+        "value": "70.300,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76840/Lote-Integral-201-e-202-Item-A-e-B"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Aguardar - 2ª Praça",
+    "name": "4ª Vara Federal, especializada em Execuções Fiscais, da Subseção Judiciária de Piracicaba",
+    "place": "Piracicaba/SP",
+    "description": "Parte ideal correspondente à 50% do lote de terreno, sito à Rua Nadir Eraldo Stella, 303/305, Cj. Mario Dedini, Piracicaba/SP, encerrando uma área de 198,00m².",
+    "prices": [
+      {
+        "date": "1ª Praça\n04/09/2020 13:02",
+        "value": "R$ 132.500,00"
+      },
+      {
+        "date": "2ª Praça\n15/09/2020 13:02",
+        "value": "66.250,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76841/Parte-ideal-correspondente-%C3%A0-50-do-lote-de-terreno-sito-%C3%A0-Rua-Nadir-Eraldo-Stella-303305-Cj-Mario-Dedini-PiracicabaSP-encerrando-uma-%C3%A1rea-de-19800m%C2%B2"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Ativo - Praça Única",
+    "name": "Tribunal Regional do Trabalho da 7ª região",
+    "place": "CAPONGA/CE",
+    "description": "Terreno Urbano com AT 1.080,00m² Localizado em Caponga/CE",
+    "prices": [
+      {
+        "date": "Praça Única\n08/09/2020 16:00",
+        "value": "R$ 21.000,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76268/Terreno-Urbano-com-AT-108000m%C2%B2-Localizado-em-CapongaCE"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Ativo - Praça Única",
+    "name": "Tribunal Regional do Trabalho da 7ª região",
+    "place": "Fortaleza/CE",
+    "description": "Um terreno, situado em Fortaleza- CE, lugar Siqueira, antes denominado Pititinga, na AV. Perimetral lado par, de forma irregular, com seus limites e confrontações, com área total de 27.797,28m2.",
+    "prices": [
+      {
+        "date": "Praça Única\n08/09/2020 16:00",
+        "value": "R$ 9.450.000,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76274/Um-terreno-situado-em-Fortaleza-CE-lugar-Siqueira-antes-denominado-Pititinga-na-AV-Perimetral-lado-par-de-forma-irregular-com-seus-limites-e-confronta%C3%A7%C3%B5es-com-%C3%A1rea-total-de-2779728m2"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Ativo - Praça Única",
+    "name": "Tribunal Regional do Trabalho da 7ª região",
+    "place": "São Gonçalo do Amarante/CE",
+    "description": "Terreno com AT. 450m² no Loteamento Caminho do Pecém em São Gonçalo do Amarante/CE",
+    "prices": [
+      {
+        "date": "Praça Única\n08/09/2020 16:00",
+        "value": "R$ 26.775,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76278/Terreno-com-AT-450m%C2%B2-no-Loteamento-Caminho-do-Pec%C3%A9m-em-S%C3%A3o-Gon%C3%A7alo-do-AmaranteCE"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Ativo - Praça Única",
+    "name": "Tribunal Regional do Trabalho da 7ª região",
+    "place": "PACATUBACE/CE",
+    "description": "Um terreno situado no Loteamento Parque Quandú, Pacatubace, constituído dos lotes nº 03 a 48 da quadra 24, medindo 50,00 x 230,00, com área total de 11,500m2.",
+    "prices": [
+      {
+        "date": "Praça Única\n08/09/2020 16:00",
+        "value": "R$ 140.000,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76279/Um-terreno-situado-no-Loteamento-Parque-Quand%C3%BA-Pacatubace-constitu%C3%ADdo-dos-lotes-n%C2%BA-03-a-48-da-quadra-24-medindo-5000-x-23000-com-%C3%A1rea-total-de-11500m2"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Ativo - Praça Única",
+    "name": "Tribunal Regional do Trabalho da 7ª região",
+    "place": "Fortaleza/CE",
+    "description": "Um terreno, situado na Rua Florêncio Coelho Holanda, nº 400- Maraponga, nesta Capital, perfazendo uma área total de 309,92 m2.",
+    "prices": [
+      {
+        "date": "Praça Única\n08/09/2020 16:00",
+        "value": "R$ 87.500,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76280/Um-terreno-situado-na-Rua-Flor%C3%AAncio-Coelho-Holanda-n%C2%BA-400-Maraponga-nesta-Capital-perfazendo-uma-%C3%A1rea-total-de-30992-m2"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Ativo - Praça Única",
+    "name": "Tribunal Regional do Trabalho da 7ª região",
+    "place": "Itapipoca/CE",
+    "description": "Terreno rural com área de 690m² em Lagoa da Cruz, Itapipoca/CE",
+    "prices": [
+      {
+        "date": "Praça Única\n08/09/2020 16:00",
+        "value": "R$ 73.416,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76285/Terreno-rural-com-%C3%A1rea-de-690m%C2%B2-em-Lagoa-da-Cruz-ItapipocaCE"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Ativo - Praça Única",
+    "name": "Tribunal Regional do Trabalho da 7ª região",
+    "place": "Beberibe/CE",
+    "description": "Imóvel de 1.188m² localizado na Amarela, Fazenda Mosquito, Distrito de Itapeim, Beberibe/CE",
+    "prices": [
+      {
+        "date": "Praça Única\n08/09/2020 16:00",
+        "value": "R$ 5.544,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76286/Im%C3%B3vel-de-1188m%C2%B2-localizado-na-Amarela-Fazenda-Mosquito-Distrito-de-Itapeim-BeberibeCE"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Ativo - 1ª Praça",
+    "name": "2ª Vara Cível do Foro da Comarca de Araraquara",
+    "place": "Araraquara/SP",
+    "description": "Terreno com área de 275,19 m² no Jardim Rafaela Amoroso Miccelli em Araraquara-SP",
+    "prices": [
+      {
+        "date": "1ª Praça\n08/09/2020 15:32",
+        "value": "R$ 79.563,50"
+      },
+      {
+        "date": "2ª Praça\n22/09/2020 15:32",
+        "value": "51.716,28"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76160/Terreno-com-%C3%A1rea-de-27519-m%C2%B2-no-Jardim-Rafaela-Amoroso-Miccelli-em-Araraquara-SP"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Ativo - Praça Única",
+    "name": "Tribunal Regional do Trabalho da 7ª região",
+    "place": "FORTALEZA/CE",
+    "description": "Terreno com área de 10.296m² no bairro Dias Macedo em Fortaleza/CE",
+    "prices": [
+      {
+        "date": "Praça Única\n09/09/2020 14:00",
+        "value": "R$ 4.200.000,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76905/Terreno-com-%C3%A1rea-de-10296m%C2%B2-no-bairro-Dias-Macedo-em-FortalezaCE"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Ativo - 1ª Praça",
+    "name": "Vara Única do Foro da Comarca de Artur Nogueira",
+    "place": "ARTUR NOGUEIRA/SP",
+    "description": "Direitos ao imóvel localizado na Rua Celestino Pereira da Silva, nº 0, Quadra L, Lote 09, Residencial Boa Esperança, Artur Nogueira/SP.",
+    "prices": [
+      {
+        "date": "1ª Praça\n17/09/2020 14:00",
+        "value": "R$ 25.038,77"
+      },
+      {
+        "date": "2ª Praça\n07/10/2020 14:00",
+        "value": "12.519,38"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76597/Direitos-ao-im%C3%B3vel-localizado-na-Rua-Celestino-Pereira-da-Silva-n%C2%BA-0-Quadra-L-Lote-09-Residencial-Boa-Esperan%C3%A7a-Artur-NogueiraSP"
+  },
+  {
+    "status": "Lote a Lote",
+    "type": "Ativo - Praça Única",
+    "name": "TRT 15 - Araçatuba/SP",
+    "place": "Promissão/SP",
+    "description": "Lote Integral (3.01 ao 3.03) Terrenos urbanos  e Caminhão Ford/Cargo Ano/Mod 2005/2005",
+    "prices": [
+      {
+        "date": "Praça Única\n18/09/2020 00:00",
+        "value": "R$ 141.331,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76762/Lote-Integral-301-ao-303-Terrenos-urbanos-e-Caminh%C3%A3o-FordCargo-AnoMod-20052005"
+  },
+  {
+    "status": "Lote a Lote",
+    "type": "Aguardar - Praça Única",
+    "name": "TRT 15 - Araçatuba/SP",
+    "place": "Promissão/SP",
+    "description": "Terreno sem benfeitorias com 255,358m² no Jardim do Bosque em Promissão/SP",
+    "prices": [
+      {
+        "date": "Praça Única\n18/09/2020 00:00",
+        "value": "R$ 38.674,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76763/Terreno-sem-benfeitorias-com-255358m%C2%B2-no-Jardim-do-Bosque-em-Promiss%C3%A3oSP"
+  },
+  {
+    "status": "Lote a Lote",
+    "type": "Aguardar - Praça Única",
+    "name": "TRT 15 - Araçatuba/SP",
+    "place": "Promissão/SP",
+    "description": "Terreno sem benfeitorias com 305,088m² no Jardim do Bosque em Promissão/SP",
+    "prices": [
+      {
+        "date": "Praça Única\n18/09/2020 00:00",
+        "value": "R$ 70.157,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76764/Terreno-sem-benfeitorias-com-305088m%C2%B2-no-Jardim-do-Bosque-em-Promiss%C3%A3oSP"
+  },
+  {
+    "status": "Lote a Lote",
+    "type": "Ativo - Praça Única",
+    "name": "TRT 15 - Araçatuba/SP",
+    "place": "Riolândia/SP",
+    "description": "6,25% de um terreno com 363m² na cidade de Riolândia/SP",
+    "prices": [
+      {
+        "date": "Praça Única\n18/09/2020 00:00",
+        "value": "R$ 4.687,50"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76766/625-de-um-terreno-com-363m%C2%B2-na-cidade-de-Riol%C3%A2ndiaSP"
+  },
+  {
+    "status": "Lote a Lote",
+    "type": "Ativo - Praça Única",
+    "name": "TRT 15 - Araçatuba/SP",
+    "place": "Suzano/SP",
+    "description": "Lote Integral (6.01 ao 6.07) Glebas no sítio Prijú loteamento cidade Miguel Badra em Suzano/SP",
+    "prices": [
+      {
+        "date": "Praça Única\n18/09/2020 00:00",
+        "value": "R$ 105.000,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76768/Lote-Integral-601-ao-607-Glebas-no-s%C3%ADtio-Prij%C3%BA-loteamento-cidade-Miguel-Badra-em-SuzanoSP"
+  },
+  {
+    "status": "Lote a Lote",
+    "type": "Aguardar - Praça Única",
+    "name": "TRT 15 - Araçatuba/SP",
+    "place": "Suzano/SP",
+    "description": "Terreno com 250m² no Loteamento Cidade Miguel Badra em Suzano/SP",
+    "prices": [
+      {
+        "date": "Praça Única\n18/09/2020 00:00",
+        "value": "R$ 15.000,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76769/Terreno-com-250m%C2%B2-no-Loteamento-Cidade-Miguel-Badra-em-SuzanoSP"
+  },
+  {
+    "status": "Lote a Lote",
+    "type": "Aguardar - Praça Única",
+    "name": "TRT 15 - Araçatuba/SP",
+    "place": "Suzano/SP",
+    "description": "Terreno com 250m² no Loteamento Cidade Miguel Brada em Suzano/SP",
+    "prices": [
+      {
+        "date": "Praça Única\n18/09/2020 00:00",
+        "value": "R$ 15.000,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76770/Terreno-com-250m%C2%B2-no-Loteamento-Cidade-Miguel-Brada-em-SuzanoSP"
+  },
+  {
+    "status": "Lote a Lote",
+    "type": "Aguardar - Praça Única",
+    "name": "TRT 15 - Araçatuba/SP",
+    "place": "Suzano/SP",
+    "description": "Terreno com 250m² no Loteamento Cidade Miguel Badra em Suzano/SP",
+    "prices": [
+      {
+        "date": "Praça Única\n18/09/2020 00:00",
+        "value": "R$ 15.000,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76771/Terreno-com-250m%C2%B2-no-Loteamento-Cidade-Miguel-Badra-em-SuzanoSP"
+  },
+  {
+    "status": "Lote a Lote",
+    "type": "Aguardar - Praça Única",
+    "name": "TRT 15 - Araçatuba/SP",
+    "place": "Suzano/SP",
+    "description": "Terreno com 250m² no Loteamento Cidade Miguel Badra em Suzano/SP",
+    "prices": [
+      {
+        "date": "Praça Única\n18/09/2020 00:00",
+        "value": "R$ 15.000,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76772/Terreno-com-250m%C2%B2-no-Loteamento-Cidade-Miguel-Badra-em-SuzanoSP"
+  },
+  {
+    "status": "Lote a Lote",
+    "type": "Aguardar - Praça Única",
+    "name": "TRT 15 - Araçatuba/SP",
+    "place": "Suzano/SP",
+    "description": "Terreno com 250m² no Loteamento Cidade Miguel Badra em Suzano/SP",
+    "prices": [
+      {
+        "date": "Praça Única\n18/09/2020 00:00",
+        "value": "R$ 15.000,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76773/Terreno-com-250m%C2%B2-no-Loteamento-Cidade-Miguel-Badra-em-SuzanoSP"
+  },
+  {
+    "status": "Lote a Lote",
+    "type": "Aguardar - Praça Única",
+    "name": "TRT 15 - Araçatuba/SP",
+    "place": "Suzano/SP",
+    "description": "Terreno com 250m² no Loteamento Cidade Miguel Badra em Suzano/SP",
+    "prices": [
+      {
+        "date": "Praça Única\n18/09/2020 00:00",
+        "value": "R$ 15.000,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76774/Terreno-com-250m%C2%B2-no-Loteamento-Cidade-Miguel-Badra-em-SuzanoSP"
+  },
+  {
+    "status": "Lote a Lote",
+    "type": "Aguardar - Praça Única",
+    "name": "TRT 15 - Araçatuba/SP",
+    "place": "Suzano/SP",
+    "description": "Terreno com 283m² no Sítio Prijú, Bairro do Rio Abaixo, Loteamento Cidade Miguel Badra em Suzano/SP",
+    "prices": [
+      {
+        "date": "Praça Única\n18/09/2020 00:00",
+        "value": "R$ 15.000,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76775/Terreno-com-283m%C2%B2-no-S%C3%ADtio-Prij%C3%BA-Bairro-do-Rio-Abaixo-Loteamento-Cidade-Miguel-Badra-em-SuzanoSP"
+  },
+  {
+    "status": "Lote a Lote",
+    "type": "Ativo - Praça Única",
+    "name": "TRT 15 - Araçatuba/SP",
+    "place": "Lins/SP",
+    "description": "Imóvel com área de 144m² em Lins/SP",
+    "prices": [
+      {
+        "date": "Praça Única\n18/09/2020 00:00",
+        "value": "R$ 40.000,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76781/Im%C3%B3vel-com-%C3%A1rea-de-144m%C2%B2-em-LinsSP"
+  },
+  {
+    "status": "Lote a Lote",
+    "type": "Ativo - Praça Única",
+    "name": "TRT 15 - Araçatuba/SP",
+    "place": "Birigui/SP",
+    "description": "Lote de terreno, sem benfeitorias, com área de 250,88 m², em Birigui/SP",
+    "prices": [
+      {
+        "date": "Praça Única\n18/09/2020 00:00",
+        "value": "R$ 50.000,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76782/Lote-de-terreno-sem-benfeitorias-com-%C3%A1rea-de-25088-m%C2%B2-em-BiriguiSP"
+  },
+  {
+    "status": "Lote a Lote",
+    "type": "Ativo - Praça Única",
+    "name": "TRT 15 - Araçatuba/SP",
+    "place": "Lins/SP",
+    "description": "Terreno com 312,05m² à Rua Santos Dumont em Lins/SP",
+    "prices": [
+      {
+        "date": "Praça Única\n18/09/2020 00:00",
+        "value": "R$ 60.000,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76820/Terreno-com-31205m%C2%B2-%C3%A0-Rua-Santos-Dumont-em-LinsSP"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Aguardar - 1ª Praça",
+    "name": "Vara Única do Foro da Comarca de Buri",
+    "place": "Buri/SP",
+    "description": "Direitos possessórios de uma área de terras de 9.061,28m², remanescente de uma maior porção do imóvel denominado Sítio Bela Vista, situado no Bairro Capelinha em Buri/SP",
+    "prices": [
+      {
+        "date": "1ª Praça\n01/10/2020 14:00",
+        "value": "R$ 332.813,00"
+      },
+      {
+        "date": "2ª Praça\n21/10/2020 14:00",
+        "value": "199.687,80"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76911/Direitos-possess%C3%B3rios-de-uma-%C3%A1rea-de-terras-de-906128m%C2%B2-remanescente-de-uma-maior-por%C3%A7%C3%A3o-do-im%C3%B3vel-denominado-S%C3%ADtio-Bela-Vista-situado-no-Bairro-Capelinha-em-BuriSP"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Aguardar - 1ª Praça",
+    "name": "Vara Única do Foro da Comarca de Santa Cruz das Palmeiras",
+    "place": "Santa Cruz das Palmeiras/SP",
+    "description": "Imóvel com área total de 224,90 m² em Santa Cruz das Palmeiras/SP",
+    "prices": [
+      {
+        "date": "1ª Praça\n01/10/2020 14:00",
+        "value": "R$ 125.605,00"
+      },
+      {
+        "date": "2ª Praça\n21/10/2020 14:00",
+        "value": "75.363,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76912/Im%C3%B3vel-com-%C3%A1rea-total-de-22490-m%C2%B2-em-Santa-Cruz-das-PalmeirasSP"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Aguardar - 1ª Praça",
+    "name": "8ª Vara Cível do Foro da Comarca de Guarulhos",
+    "place": "Guarulhos/SP",
+    "description": "Terreno com área de 825m², consistente em parte do antigo Sítio Ferrão no Bairro Bonsucesso em Guarulhos-SP",
+    "prices": [
+      {
+        "date": "1ª Praça\n08/10/2020 14:00",
+        "value": "R$ 400.400,00"
+      },
+      {
+        "date": "2ª Praça\n28/10/2020 14:00",
+        "value": "200.200,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76466/Terreno-com-%C3%A1rea-de-825m%C2%B2-consistente-em-parte-do-antigo-S%C3%ADtio-Ferr%C3%A3o-no-Bairro-Bonsucesso-em-Guarulhos-SP"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Aguardar - 1ª Praça",
+    "name": "8ª Vara Cível do Foro da Comarca de Guarulhos",
+    "place": "Guarulhos/SP",
+    "description": "Terreno com área de 286m², consistente em parte do Antigo Sítio Ferrão no Bairro Bonsucesso em Guarulhos-SP",
+    "prices": [
+      {
+        "date": "1ª Praça\n08/10/2020 14:01",
+        "value": "R$ 200.200,00"
+      },
+      {
+        "date": "2ª Praça\n28/10/2020 14:01",
+        "value": "100.100,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76467/Terreno-com-%C3%A1rea-de-286m%C2%B2-consistente-em-parte-do-Antigo-S%C3%ADtio-Ferr%C3%A3o-no-Bairro-Bonsucesso-em-Guarulhos-SP"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Aguardar - 1ª Praça",
+    "name": "2ª Vara Cível do Foro da Comarca de Bebedouro",
+    "place": "BEBEDOURO/SP",
+    "description": "Terreno com 250m² sem benfeitorias no Loteamento Jd Alvorada em Bebedouro/SP",
+    "prices": [
+      {
+        "date": "1ª Praça\n09/10/2020 14:00",
+        "value": "R$ 82.369,13"
+      },
+      {
+        "date": "2ª Praça\n29/10/2020 14:00",
+        "value": "41.184,56"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76997/Terreno-com-250m%C2%B2-sem-benfeitorias-no-Loteamento-Jd-Alvorada-em-BebedouroSP"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Aguardar - 1ª Praça",
+    "name": "2ª Vara Cível do Foro Comarca de Santa Bárbara D Oeste",
+    "place": "Hortolândia/SP",
+    "description": "Terreno de 463,63m², localizado no Jardim Green Park Residence a Rua 10 em Hortolândia/SP.",
+    "prices": [
+      {
+        "date": "1ª Praça\n16/10/2020 14:00",
+        "value": "R$ 150.658,20"
+      },
+      {
+        "date": "2ª Praça\n05/11/2020 14:00",
+        "value": "90.394,92"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/77012/Terreno-de-46363m%C2%B2-localizado-no-Jardim-Green-Park-Residence-a-Rua-10-em-Hortol%C3%A2ndiaSP"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Aguardar - 1ª Praça",
+    "name": "2ª Vara Cível do Foro da Comarca de Descalvado",
+    "place": "DESCALVADO/SP",
+    "description": "A fração ideal de 1/7 (um sétimo) do prédio residencial, respectivo terreno e quintal, situados nesta cidade de Descalvado/SP",
+    "prices": [
+      {
+        "date": "1ª Praça\n06/11/2020 14:00",
+        "value": "R$ 39.042,04"
+      },
+      {
+        "date": "2ª Praça\n27/11/2020 14:00",
+        "value": "27.329,43"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76999/A-fra%C3%A7%C3%A3o-ideal-de-17-um-s%C3%A9timo-do-pr%C3%A9dio-residencial-respectivo-terreno-e-quintal-situados-nesta-cidade-de-DescalvadoSP"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Ativo - 1ª Praça",
+    "name": "1ª Vara Cível do Foro da Comarca de Araraquara",
+    "place": "Araraquara/SP",
+    "description": "25% de um terreno de esquina sem benfeitorias com 450m² no loteamento Jardim Santa Marta em Araraquara/SP",
+    "prices": [
+      {
+        "date": "1ª Praça\n12/11/2020 14:00",
+        "value": "R$ 36.985,00"
+      },
+      {
+        "date": "2ª Praça\n02/12/2020 14:00",
+        "value": "18.492,50"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76983/25-de-um-terreno-de-esquina-sem-benfeitorias-com-450m%C2%B2-no-loteamento-Jardim-Santa-Marta-em-AraraquaraSP"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Ativo - 1ª Praça",
+    "name": "1ª Vara Cível do Foro da Comarca de Araraquara",
+    "place": "Araraquara/SP",
+    "description": "25% de um terreno de esquina sem benfeitorias com 546,75m² no loteamento Jardim Santa Marta em Araraquara/SP",
+    "prices": [
+      {
+        "date": "1ª Praça\n12/11/2020 14:01",
+        "value": "R$ 29.010,40"
+      },
+      {
+        "date": "2ª Praça\n02/12/2020 14:01",
+        "value": "14.505,20"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76984/25-de-um-terreno-de-esquina-sem-benfeitorias-com-54675m%C2%B2-no-loteamento-Jardim-Santa-Marta-em-AraraquaraSP"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Ativo - 2ª Praça",
+    "name": "1º Vara da Comarca de Limoeiro do Norte",
+    "place": "Limoeiro do Norte/CE",
+    "description": "Terreno urbano localziado na cidade de Limoeiro do Norte-CE, com área de 1.871,10m²",
+    "prices": [
+      {
+        "date": "1ª Praça\n02/09/2020 14:01",
+        "value": "R$ 282.000,00"
+      },
+      {
+        "date": "2ª Praça\n22/09/2020 14:01",
+        "value": "141.000,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76634/Terreno-urbano-localziado-na-cidade-de-Limoeiro-do-Norte-CE-com-%C3%A1rea-de-187110m%C2%B2"
+  }
+]

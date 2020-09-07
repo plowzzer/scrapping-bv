@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "silveiraLeiloes": "ts-node-dev --transpile-only ./src/silveiraleiloes.ts",
+    "hastaPublica": "ts-node-dev --transpile-only ./src/hastaPublica.ts",
     "vivaReal": "ts-node-dev --transpile-only ./src/vivaReal.ts"
   },
   "dependencies": {
