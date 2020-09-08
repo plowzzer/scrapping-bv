@@ -15,7 +15,9 @@ export interface Bid {
 }
 
 const scrape = async () => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+  });
   const page = await browser.newPage();
   const urls = [
     "https://www.hastapublica.com.br/busca?id_categoria=2&id_sub_categoria=85&localidade=&data=&id_leilao=&palavra=",
