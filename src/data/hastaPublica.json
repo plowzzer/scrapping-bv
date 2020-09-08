@@ -1,56 +1,6 @@
 [
   {
     "status": "Apenas Online",
-    "type": "Ativo - 2ª Praça",
-    "name": "4ª Vara Federal, especializada em Execuções Fiscais, da Subseção Judiciária de Piracicaba",
-    "place": "Piracicaba/SP",
-    "description": "Lote Integral (2.01 e 2.02) Item A e B",
-    "prices": [
-      {
-        "date": "1ª Praça\n04/09/2020 13:01",
-        "value": "R$ 140.600,00"
-      },
-      {
-        "date": "2ª Praça\n15/09/2020 13:01",
-        "value": "70.300,00"
-      }
-    ],
-    "link": "https://www.hastapublica.com.br/lote/76840/Lote-Integral-201-e-202-Item-A-e-B"
-  },
-  {
-    "status": "Apenas Online",
-    "type": "Aguardar - 2ª Praça",
-    "name": "4ª Vara Federal, especializada em Execuções Fiscais, da Subseção Judiciária de Piracicaba",
-    "place": "Piracicaba/SP",
-    "description": "Parte ideal correspondente à 50% do lote de terreno, sito à Rua Nadir Eraldo Stella, 303/305, Cj. Mario Dedini, Piracicaba/SP, encerrando uma área de 198,00m².",
-    "prices": [
-      {
-        "date": "1ª Praça\n04/09/2020 13:02",
-        "value": "R$ 132.500,00"
-      },
-      {
-        "date": "2ª Praça\n15/09/2020 13:02",
-        "value": "66.250,00"
-      }
-    ],
-    "link": "https://www.hastapublica.com.br/lote/76841/Parte-ideal-correspondente-%C3%A0-50-do-lote-de-terreno-sito-%C3%A0-Rua-Nadir-Eraldo-Stella-303305-Cj-Mario-Dedini-PiracicabaSP-encerrando-uma-%C3%A1rea-de-19800m%C2%B2"
-  },
-  {
-    "status": "Apenas Online",
-    "type": "Ativo - Praça Única",
-    "name": "Tribunal Regional do Trabalho da 7ª região",
-    "place": "CAPONGA/CE",
-    "description": "Terreno Urbano com AT 1.080,00m² Localizado em Caponga/CE",
-    "prices": [
-      {
-        "date": "Praça Única\n08/09/2020 16:00",
-        "value": "R$ 21.000,00"
-      }
-    ],
-    "link": "https://www.hastapublica.com.br/lote/76268/Terreno-Urbano-com-AT-108000m%C2%B2-Localizado-em-CapongaCE"
-  },
-  {
-    "status": "Apenas Online",
     "type": "Ativo - Praça Única",
     "name": "Tribunal Regional do Trabalho da 7ª região",
     "place": "Fortaleza/CE",
@@ -572,5 +522,55 @@
       }
     ],
     "link": "https://www.hastapublica.com.br/lote/76634/Terreno-urbano-localziado-na-cidade-de-Limoeiro-do-Norte-CE-com-%C3%A1rea-de-187110m%C2%B2"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Ativo - 2ª Praça",
+    "name": "4ª Vara Federal, especializada em Execuções Fiscais, da Subseção Judiciária de Piracicaba",
+    "place": "Piracicaba/SP",
+    "description": "Lote Integral (2.01 e 2.02) Item A e B",
+    "prices": [
+      {
+        "date": "1ª Praça\n04/09/2020 13:01",
+        "value": "R$ 140.600,00"
+      },
+      {
+        "date": "2ª Praça\n15/09/2020 13:01",
+        "value": "70.300,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76840/Lote-Integral-201-e-202-Item-A-e-B"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Aguardar - 2ª Praça",
+    "name": "4ª Vara Federal, especializada em Execuções Fiscais, da Subseção Judiciária de Piracicaba",
+    "place": "Piracicaba/SP",
+    "description": "Parte ideal correspondente à 50% do lote de terreno, sito à Rua Nadir Eraldo Stella, 303/305, Cj. Mario Dedini, Piracicaba/SP, encerrando uma área de 198,00m².",
+    "prices": [
+      {
+        "date": "1ª Praça\n04/09/2020 13:02",
+        "value": "R$ 132.500,00"
+      },
+      {
+        "date": "2ª Praça\n15/09/2020 13:02",
+        "value": "66.250,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76841/Parte-ideal-correspondente-%C3%A0-50-do-lote-de-terreno-sito-%C3%A0-Rua-Nadir-Eraldo-Stella-303305-Cj-Mario-Dedini-PiracicabaSP-encerrando-uma-%C3%A1rea-de-19800m%C2%B2"
+  },
+  {
+    "status": "Apenas Online",
+    "type": "Ativo - Praça Única",
+    "name": "Tribunal Regional do Trabalho da 7ª região",
+    "place": "CAPONGA/CE",
+    "description": "Terreno Urbano com AT 1.080,00m² Localizado em Caponga/CE",
+    "prices": [
+      {
+        "date": "Praça Única\n15/09/2020 16:05",
+        "value": "R$ 21.000,00"
+      }
+    ],
+    "link": "https://www.hastapublica.com.br/lote/76268/Terreno-Urbano-com-AT-108000m%C2%B2-Localizado-em-CapongaCE"
   }
 ]

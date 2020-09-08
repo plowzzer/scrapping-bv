@@ -388,23 +388,28 @@ export default (body: string) => {
               <table role="presentation" class="main">
                 <!-- START MAIN CONTENT AREA -->
                 <tr>
+                  <img src="https://static-content.bivilabs.com.br/nave-mailer/footer.jpeg" alt="" />
+                </tr>
+                <tr>
                   <td class="wrapper">
                     ${body}
+                    <table
+                      role="presentation"
+                      border="0"
+                      cellpadding="0"
+                      cellspacing="0"
+                    >
+                      <tr>
+                        <img src="https://static-content.bivilabs.com.br/nave-mailer/header.jpeg" alt="" />
+                      </tr>
+                    </table>
                   </td>
                 </tr>
+                
               </table>
             </div>
           </td>
-          <table
-            role="presentation"
-            border="0"
-            cellpadding="0"
-            cellspacing="0"
-          >
-            <tr>
-              <img src="./src/views/images/footer.jpg" alt="" />
-            </tr>
-          </table>
+          
         </tr>
       </table>
     </body>
