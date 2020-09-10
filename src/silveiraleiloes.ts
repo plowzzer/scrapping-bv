@@ -75,7 +75,7 @@ const scrape = async () => {
 };
 
 (async () => {
-  const dataFile = "./src/data/silveiraLeiloes.json";
+  const dataFile = "./data/silveiraLeiloes.json";
   const oldData = readFile(dataFile);
   const newData: any = [];
   try {
@@ -91,7 +91,8 @@ const scrape = async () => {
 
     if (newData.length > 0) {
       Mail.from = "rpa.csc@bild.com.br";
-      Mail.to = "pedro.pizzo@bild.com.br, diogenes.oliveira@bild.com.br";
+      Mail.to =
+        "pedro.pizzo@bild.com.br, diogenes.oliveira@bild.com.br, marlon@bild.com.br, heribert.schmidt@bild.com.br";
       Mail.subject = "NAVE SENTINELA - Encontramos novos Leilões";
       Mail.message = silveiraMailTemplate(newData);
       const sender = Mail.sendMail();
